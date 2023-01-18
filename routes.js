@@ -8,6 +8,7 @@ const requestHandler = (req,res) => {
       if (err) {
         console.log(err);
       }
+      
       console.log("data from file : " + data);
       // res.setHeader("Content-Type", "text/html");
       res.write("<html>");
